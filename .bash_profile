@@ -60,11 +60,11 @@ if [ -f $(brew --prefix)/bin/rbenv ]; then
 fi
 
 ## android
-export ANDROID_HOME=/Users/401174/Library/Android/sdk
+export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
 
 ## bash-it
-export BASH_IT="/Users/401174/.bash_it"
+export BASH_IT="$HOME/.bash_it"
 export BASH_IT_THEME='sexy'
 export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 source "$BASH_IT"/bash_it.sh
